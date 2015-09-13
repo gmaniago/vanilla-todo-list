@@ -1,19 +1,17 @@
 'use strict';
 
-var input = document.getElementById('tasks');
 var section = document.getElementById('list');
+var input = document.getElementById('tasks');
 var erase = document.getElementById('erase');
-var button = document.getElementById('btn');
-var array = [];
 var storage = localStorage;
+var count = localStorage.getItem(1);
+var done = section.innerHTML;
+var array = [];
+
 
 section.innerHTML = localStorage.getItem(0);
-
 btn.addEventListener('click', output);
 erase.addEventListener('click', eraseList);
-
-var done = section.innerHTML;
-var count = localStorage.getItem(1);
 
 function output(event){
 	count++

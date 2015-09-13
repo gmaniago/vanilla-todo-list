@@ -1,12 +1,11 @@
 html, body {
-  height: 100%;
   font-size: 1em;
   font-family: Coda,Arial,sans-serif;
   color: #f6f6f6; }
 
 body {
   background-color: #fff;
-  width: 50%;
+  width: 70%;
   margin: 0 auto; }
 
 .container {
@@ -27,18 +26,20 @@ input {
 
 button {
   background: #86BECB;
-  margin-bottom: 1em;
   color: #f6f6f6;
   height: 2em;
   border: none;
   border-radius: .15em;
+  width: 35%;
   font-size: 1em;
-  width: 43%;
-  font-family: Coda,Arial,sans-serif; }
+  font-family: Coda,Arial,sans-serif;
+  margin: 1em;
+  cursor: pointer;
+  cursor: hand; }
 
 h2 {
   margin-top: 2em;
-  padding-top: 2em;
+  padding-top: 1em;
   letter-spacing: .03em;
   text-align: center; }
 
@@ -48,8 +49,9 @@ section {
 .center {
   text-align: center; }
 
-#sect {
-  margin: 0 auto; }
+p {
+  padding: 1em 2em;
+  text-align: center; }
 
 *::-webkit-input-placeholder {
   color: #f6f6f6; }
